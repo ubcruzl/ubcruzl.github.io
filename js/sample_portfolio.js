@@ -2,11 +2,9 @@
 function openForm() {
     document.getElementById("myForm").style.display = "block";
 }
-
 function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
-
 // This function displays the first image in the slideshow when the page loads
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -20,8 +18,6 @@ function plusSlides(n) {
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-
-
 function showSlides(n) {
     var slides = document.getElementsByClassName("mySlides"); // This takes all elements with the class name "mySlides" and stores them in the variable array "slides"
     var dots = document.getElementsByClassName("dot"); // This takes all elements with the class name "dot" and stores them in the variable array "dots"
