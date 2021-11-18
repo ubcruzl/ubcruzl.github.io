@@ -402,7 +402,7 @@ footer {
     padding: .93vw; /* Adds padding to the input boxes */
     margin: .6vw 0 .6vw 0; /* Adds space between the input boxes and the labels */
     border: none; /* Removes the border from the input boxes */
-    background: Gainsboro; /* Sets the background color of the input boxes */
+    background: rgba(202, 188, 212, 0.692); /* Sets the background color of the input boxes */
     font-size: 1vw; /* Relative font sizing based on the width of the viewport */
 }
 
@@ -421,7 +421,7 @@ button {
 /* Hover effect for contact and submit buttons */
 button:hover, .form-container .btn:hover {
     color: white; /* This makes the text in the buttons white when hovered over */
-    background-color: rgb(176, 159, 209);; /* The background of the button changes to black when hovered over */
+    background-color: rgb(131, 164, 224);; /* The background of the button changes to black when hovered over */
     transition-duration: 1s; /* This makes the transition last 1 second */
     -webkit-transition-duration: 1s; /* For Safari 4.0-8.0 */
     border-color: silver; /* The border turns silver when the button is hovered over */
@@ -429,7 +429,7 @@ button:hover, .form-container .btn:hover {
 
 /* Submit button */
 .form-container .btn {
-    background-color: rgb(49, 27, 88);; 
+    background-color: rgb(18, 46, 175);; 
     color: black;
     border-color: black;
     margin-bottom: 1vh; /* Adds space between the submit button and the close button */
